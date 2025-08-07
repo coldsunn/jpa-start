@@ -53,4 +53,12 @@ public abstract class Item extends BaseEntity{
     public void setStackQuantity(int stackQuantity) {
         this.stackQuantity = stackQuantity;
     }
+
+    public List<Category> getCategories() {
+        return categories;
+    }
+
+    public void setCategories(List<Category> categories) {
+        this.categories = categories;
+    }
 }
